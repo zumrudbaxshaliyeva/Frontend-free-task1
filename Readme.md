@@ -1,4 +1,4 @@
-# Tələbələr üçün GitHub Talimatları
+# Tələbələr üçün GitHub Təlimatları
 
 ## 1. Layihə Qovluq Strukturu
 Layihənizin qovluq strukturu aşağıdakı kimi olmalıdır:
