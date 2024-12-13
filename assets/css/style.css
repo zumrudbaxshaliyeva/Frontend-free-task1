@@ -1,0 +1,36 @@
+img{
+    width:100%;
+    height: 500px;
+}
+hr{
+    background-color:red;
+    width: 50%;
+    height: 2px;
+    margin: 40px auto;
+}
+header{
+    color:red;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header:hover{
+    color:black;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:deeppink;
+    font-size: xx-large;
+}
+p:hover{
+    color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+div img{
+   width: 450px;
+}
