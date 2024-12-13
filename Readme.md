@@ -1,82 +1,80 @@
-# Tələbələr üçün GitHub Təlimatları
+README
 
-## 1. Layihə Qovluq Strukturu
-Layihənizin qovluq strukturu aşağıdakı kimi olmalıdır:
+Overview
 
-```
-project-folder/
-├── index.html
-├── assets/
-│   ├── img/
-│   │   └── example.png
-├── README.md
-```
+This is a simple HTML webpage project titled Frontend First, which provides a brief introduction to Artificial Intelligence (AI). The webpage features:
 
-### İzah:
-- **index.html**: Layihənin əsas HTML faylı. Bu fayl şəkil, mətn və mətn başlığını ehtiva edir.
-- **assets/**: Layihəyə aid resursların saxlanıldığı qovluq.
-  - **img/**: Şəkillər üçün qovluq.
-- **README.md**: Layihəniz haqqında məlumatların yer aldığı fayl.
+A headline about Artificial Intelligence.
 
-## 2. Öz Branch-ınızı Yaratmaq və GitHub-a Yükləmək
-Aşağıdakı addımları izləyin:
+Images showcasing AI-related content.
 
-### Addım 1: Repositoriyanı klonlayın
-```bash
-git clone <repository-link>
-cd <repository-name>
-```
+A description of what AI is and its historical significance.
 
-### Addım 2: Yeni branch yaradın
-```bash
-git checkout -b <branch-adı>
-```
+File Structure
 
-### Addım 3: Fayllarınızı əlavə edin və commit edin
-```bash
-git add .
-git commit -m "Fayllar əlavə olundu"
-```
+HTML File
 
-### Addım 4: Branch-ınızı GitHub-a göndərin
-```bash
-git push origin <branch-adı>
-```
+The main HTML file is structured as follows:
 
-## 3. README.md Faylı Şablonu
-Aşağıda README.md faylı üçün bir şablon verilmişdir:
+The head section includes:
 
-```markdown
-# Layihə Adı
+meta tags for character encoding and responsive design.
 
-## Layihə Haqqında
-Bu layihə şəkil, mətn və mətn başlığından ibarətdir.
+A title tag for the webpage.
 
-## Layihə Qovluq Strukturu
-```
-project-folder/
-├── index.html
-├── assets/
-│   ├── img/
-│   │   └── example.png
-├── README.md
-```
+Inline style tags for basic CSS styling.
 
-## Şəkil Nümunəsi
-Layihədə istifadə olunan bir şəkil nümunəsi:
+The body section contains:
 
-![Example Image](assets/img/example.png)
+A main heading (h1) titled ARTIFICIAL INTELLIGENCE.
 
-## Layihəyə Necə Başlamaq Olar
-1. Repositoriyanı klonlayın:
-    ```bash
-    git clone <repository-link>
-    ```
-2. Qovluğa keçin və faylları yoxlayın.
+Two images displayed using img tags.
 
-## Keçid Linki
-Layihəni canlı olaraq bu linkdən görə bilərsiniz: [Layihə Linki](https://ornek-link.com)
+A descriptive paragraph within an h1 tag about AI.
 
----
+Assets
 
-Hazırlayan: [Adınız]
+The images used in the project are located in the following paths:
+
+./assests/image/FOTO AI.jpg
+./assests/image/FOTO2 AI.jpg
+
+Features
+
+Responsive Design: The meta viewport tag ensures compatibility with different screen sizes.
+
+Styling: Images are styled using inline CSS to maintain consistent width and height.
+
+How to Run
+
+Clone or download the project files to your local machine.
+
+Ensure the assests/image directory contains the images:
+
+FOTO AI.jpg
+
+FOTO2 AI.jpg
+
+Open the HTML file in a web browser to view the webpage.
+
+Notes
+
+Ensure that the image paths are correct. If the images do not load, verify the folder and file names for typos.
+
+You can further enhance the webpage by:
+
+Adding external CSS for more detailed styling.
+
+Using semantic HTML tags to improve accessibility.
+
+Suggestions for Improvement
+
+Replace the second style block in the head section with one consolidated block to avoid redundancy.
+
+Use proper semantic tags (e.g., replace the descriptive h1 with a p or div tag).
+
+Consider using alt text that provides more descriptive information for the images.
+
+License
+
+This project is open for educational purposes. Feel free to modify and use it as needed.
