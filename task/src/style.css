@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.container {
+  margin: 50px auto;
+  max-width: 1300px;
+  color: #908a89;
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 0.05em;
+}
+
+.container .info-block {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .info-block .text {
+  border-top: 1px solid #ffffff7d;
+}
+
+.container .heading h1 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.container .info-block .image img {
+  width: 550px;
+  height: 550px;
+}
+
+.container .info-block .image {
+  border-right: 1px solid #ffffff7d;
+  border-bottom: 1px solid #ffffff7d;
+}
+.container .info-block p {
+  font-size: 20px;
+  line-height: 2rem;
+  font-weight: 400;
+}
+body {
+  background-color: black;
+}
+ 
